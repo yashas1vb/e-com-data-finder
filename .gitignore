@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+*.env
+
+# Flask / backend runtime files
+backend/uploads/
+backend/output/
+backend/checkpoints/
+*.log
+
+# Frontend build artifacts
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CSV data files
+*.csv
